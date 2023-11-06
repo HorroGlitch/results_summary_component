@@ -4,19 +4,32 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Results Summary Component</title>
   </head>
   <body>
     <header>
+<p id="yourResult">Your Result</p>
 
+<div id="total">
+  <p id="numberTotal">76</p>
+  <span id="onNumber">of 100</span>
+</div>
+
+<h2>Great</h2>
+<p>Your performance exceed 65% of the people conducting the test here!</p>
     </header>
 
     <main>
+<h3 id="summary">Summary</h3>
 
+<div class="summaryCategory"><img src="image/bolt-lightning-solid.svg" alt="/"><p id="reaction">Reaction <span>80</span>/100</p></div>
+<div class="summaryCategory"><img src="image/brain-solid.svg" alt="/"><p id="memory">Memory <span>92</span>/100</p></div>
+<div class="summaryCategory"><img src="image/comment-dots-regular.svg" alt="/"><p>Verbal <span>61</span>/100</p></div>
+<div class="summaryCategory"><img src="image/eye-regular.svg" alt="/"><p>Visual <span>73</span>/100</p></div>
     </main>
 
     <footer>
-      
+<button id="continueButton"></button>
     </footer>
     <script type="module" src="/main.js"></script>
   </body>
